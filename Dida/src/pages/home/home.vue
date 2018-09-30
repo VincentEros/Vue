@@ -1,15 +1,20 @@
 <template>
   <div>
-    <home-header></home-header>
+    <home-video></home-video>
+    <div class="content">
+      <home-header></home-header>
+    </div>
   </div>
 </template>
 
 <script>
 import HomeHeader from './components/Header'
+import HomeVideo from './components/homeVideo'
 export default {
   name: 'Home',
   components: {
-    HomeHeader
+    HomeHeader,
+    HomeVideo
   },
   data () {},
   computed: {},
@@ -19,6 +24,5 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="stylus" scoped>
 </style>
