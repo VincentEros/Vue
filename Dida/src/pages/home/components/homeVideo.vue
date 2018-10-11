@@ -10,6 +10,14 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="stylus" scoped>
+  .video-bg
+    height: 100%;
+    width: 100%;
+  .video-tvc {
+    position fixed
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 </style>

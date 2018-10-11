@@ -1,16 +1,14 @@
 <template>
-  <div class="header">
+  <header class="header">
     <div class="logo">
       <img src="https://static.didapinche.com/pics//g/home/icon03.png" alt="">
     </div>
     <div class="nav">
-      <ul class="header-links">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-      </ul>
+      <div class="menu">
+        <div>菜单</div>
+      </div>
     </div>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -41,14 +39,16 @@ export default {
     margin-top 20px
   .nav
     float right
-  .header-links
+  .menu
     margin-top 20px
     display flex
     flex-direction row
-  .header-links>li
+    cursor pointer
+  .menu>div
     height 50px
     line-height 50px
     margin 0 30px
-    color #ffffff
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.7);
 
 </style>
